@@ -1,7 +1,7 @@
 {
     "editor.tabSize": 4,
-    "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
     "[jsonc]": {
         "editor.defaultFormatter": "biomejs.biome"
     },
@@ -24,6 +24,5 @@
         "quickfix.biome": "explicit",
         "source.organizeImports.biome": "explicit"
     },
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "eslint.enable": false
+    "typescript.preferences.importModuleSpecifier": "non-relative"
 }
