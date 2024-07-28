@@ -26,7 +26,8 @@
             "**/out/**/*",
             "**/.yarn/**/*",
             "**/.next/**/*",
-            "**/.vercel/**/*"
+            "**/.vercel/**/*",
+            "**/*.mdx"
         ]
     },
     "organizeImports": { "enabled": true },
@@ -83,7 +84,8 @@
             "**/out/**/*",
             "**/.yarn/**/*",
             "**/.next/**/*",
-            "**/.vercel/**/*"
+            "**/.vercel/**/*",
+            "**/*.mdx"
         ]
     },
     "javascript": {
