@@ -55,7 +55,7 @@
                 "noConsoleLog": "warn",
                 "useAwait": "error"
             },
-            "nursery": { "useSortedClasses": "warn" }
+            "nursery": { "useSortedClasses": "off" }
         },
 
         "ignore": [
