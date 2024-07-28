@@ -22,20 +22,11 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "noUncheckedIndexedAccess": true,
-        "noUncheckedSideEffectImports": true,
         "noImplicitOverride": true,
         "noImplicitReturns": false,
         "noPropertyAccessFromIndexSignature": false,
 
         "preserveWatchOutput": true
     },
-    "exclude": [
-        "node_modules",
-        "out",
-        "dist",
-        "build",
-        ".next",
-        "bower_components",
-        "jspm_packages"
-    ]
+    "exclude": ["node_modules", "out", "dist", "build", ".next", "bower_components", "jspm_packages"]
 }

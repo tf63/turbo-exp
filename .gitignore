@@ -8,7 +8,7 @@ node_modules/
 .pnp.js
 
 # testing
-coverage
+coverage/
 
 # next.js
 .next/
@@ -46,7 +46,7 @@ lerna-debug.log*
 .env.production.local
 
 # turbo
-.turbo
+.turbo/
 
 # ui
 dist/
