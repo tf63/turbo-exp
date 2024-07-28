@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { Card } from '@repo/ui/card'
+import Image from 'next/image'
 
 function Gradient({
     conic,
@@ -12,7 +12,7 @@ function Gradient({
 }): JSX.Element {
     return (
         <span
-            className={`absolute mix-blend-normal will-change-[filter] rounded-[100%] ${
+            className={`absolute rounded-[100%] mix-blend-normal will-change-[filter] ${
                 small ? 'blur-[32px]' : 'blur-[75px]'
             } ${conic ? 'bg-glow-conic' : ''} ${className}`}
         />
@@ -62,7 +62,7 @@ export default function Page(): JSX.Element {
                             alt="Vercel Logo"
                             className="invert"
                             height={24}
-                            priority
+                            priority={true}
                             src="/vercel.svg"
                             width={100}
                         />
@@ -77,14 +77,14 @@ export default function Page(): JSX.Element {
                             <Image alt="Turborepo" height={614} src="circles.svg" width={614} />
                         </div>
                         <div className="absolute z-50 flex items-center justify-center w-64 h-64">
-                            <Gradient className="opacity-90 w-[120px] h-[120px]" conic small />
+                            <Gradient className="opacity-90 w-[120px] h-[120px]" conic={true} small={true} />
                         </div>
 
                         <div className="w-[120px] h-[120px] z-50">
-                            <Image alt="" height={120} priority src="turborepo.svg" width={120} />
+                            <Image alt="" height={120} priority={true} src="turborepo.svg" width={120} />
                         </div>
                     </div>
-                    <Gradient className="top-[-500px] opacity-[0.15] w-[1000px] h-[1000px]" conic />
+                    <Gradient className="top-[-500px] opacity-[0.15] w-[1000px] h-[1000px]" conic={true} />
                     <div className="z-50 flex flex-col items-center justify-center gap-5 px-6 text-center lg:gap-6">
                         <svg
                             className="w-[160px] md:w-[200px] fill-white"

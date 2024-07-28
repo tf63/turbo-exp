@@ -50,7 +50,11 @@
                 "noImplicitBoolean": "error",
                 "noNonNullAssertion": "warn"
             },
-            "suspicious": { "recommended": true, "noConsoleLog": "warn", "useAwait": "error" },
+            "suspicious": {
+                "recommended": true,
+                "noConsoleLog": "warn",
+                "useAwait": "error"
+            },
             "nursery": { "useSortedClasses": "warn" }
         },
 
@@ -99,7 +103,10 @@
         {
             "include": ["*.stories.*", "*.story.*"],
             "linter": {
-                "rules": { "correctness": { "useHookAtTopLevel": "off" }, "style": { "noDefaultExport": "off" } }
+                "rules": {
+                    "correctness": { "useHookAtTopLevel": "off" },
+                    "style": { "noDefaultExport": "off" }
+                }
             }
         },
         {
