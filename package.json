@@ -18,7 +18,9 @@
         "turbo": "^2.0.9"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx}": ["pnpm lint", "pnpm format", "git add"]
+        "*.{js,jsx,ts,tsx}": ["pnpm lint", "pnpm format", "git add"],
+        "*.{json}": ["pnpm format", "git add"],
+        "*.{md,mdx,yml,yaml,css,html}": ["prettier --write", "git add"]
     },
     "packageManager": "pnpm@8.15.6",
     "engines": {
