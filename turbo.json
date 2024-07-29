@@ -6,7 +6,9 @@
             "inputs": ["$TURBO_DEFAULT$", ".env*"],
             "outputs": ["dist/**", ".next/**", "!.next/cache/**", "storybook-static/**"]
         },
-        "lint": {},
+        "lint": {
+            "inputs": ["plopfile.js"]
+        },
         "lint:fix": {},
         "type-check": {},
         "dev": {
