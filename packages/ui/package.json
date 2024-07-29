@@ -20,8 +20,8 @@
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
-        "@repo/tailwind-config": "workspace:*",
-        "@repo/typescript-config": "workspace:*",
+        "@repo/config-tailwind": "workspace:*",
+        "@repo/config-typescript": "workspace:*",
         "@storybook/react": "^8.1.1",
         "@storybook/blocks": "^8.1.1",
         "@types/node": "^20.11.24",

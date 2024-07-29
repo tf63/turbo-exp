@@ -1,3 +1,3 @@
-import sharedConfig from '@repo/tailwind-config/postcss'
+import sharedConfig from '@repo/config-tailwind/postcss'
 
 export default sharedConfig

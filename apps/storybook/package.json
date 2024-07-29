@@ -17,7 +17,7 @@
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
-        "@repo/tailwind-config": "workspace:*",
+        "@repo/config-tailwind": "workspace:*",
         "@chromatic-com/storybook": "^1.4.0",
         "@storybook/blocks": "^8.1.1",
         "@storybook/nextjs": "^8.1.1",
