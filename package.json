@@ -8,11 +8,17 @@
         "lint:fix": "turbo lint:fix",
         "type-check": "turbo type-check",
         "clean": "turbo clean",
-        "format": "biome format . --write"
+        "format": "biome format . --write",
+        "prepare": "husky"
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
+        "husky": "^9.1.1",
+        "lint-staged": "^15.2.7",
         "turbo": "^2.0.9"
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx}": ["pnpm lint", "pnpm format", "git add"]
     },
     "packageManager": "pnpm@8.15.6",
     "engines": {
