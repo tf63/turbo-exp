@@ -31,6 +31,11 @@ module.exports = (plop) => {
             },
             {
                 type: 'add',
+                path: '{{repo}}/{{path}}/{{kebabCase (extractFilename path)}}.mdx',
+                templateFile: 'templates/components/component.mdx.hbs',
+            },
+            {
+                type: 'add',
                 path: '{{repo}}/{{path}}/{{kebabCase (extractFilename path)}}.spec.tsx',
                 templateFile: 'templates/components/component.spec.tsx.hbs',
             },
