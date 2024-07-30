@@ -1,12 +1,10 @@
 {
-    "name": "@repo/react",
+    "name": "@repo/react-chrome",
     "version": "1.0.0",
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "tsc -b && vite build",
-        "build:watch": "tsc && vite build --watch",
+        "dev": "tsc && vite build --watch",
         "lint": "biome lint .",
         "lint:fix": "biome lint . --apply",
         "preview": "vite preview"
