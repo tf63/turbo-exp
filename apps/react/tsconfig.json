@@ -1,0 +1,11 @@
+{
+    "extends": "@repo/config-typescript/tsconfig.react.json",
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./*"]
+        },
+        "types": ["node"]
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
