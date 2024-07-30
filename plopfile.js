@@ -10,7 +10,7 @@ module.exports = (plop) => {
                 type: 'list',
                 name: 'repo',
                 message: 'Please select the repository name',
-                choices: ['apps/web', 'packages/ui'],
+                choices: ['apps/next/src', 'apps/react/src', 'packages/ui'],
             },
             {
                 type: 'input',
